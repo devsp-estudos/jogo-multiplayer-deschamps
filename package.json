@@ -1,0 +1,17 @@
+{
+  "name": "jogo-multiplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./backend/index.js",
+  "scripts": {
+    "start": "node ./backend",
+    "dev": "nodemon ./backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
